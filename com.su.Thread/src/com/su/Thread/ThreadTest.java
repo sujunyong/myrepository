@@ -8,7 +8,8 @@ public class ThreadTest {
 		}});    
 	static Thread t2 = new Thread(new Runnable() {
 		@Override        
-		public void run() {           
+		public void run() {  
+			System.out.println("你好");
 			try {
 				t1.join();
 				Thread.sleep(100);
