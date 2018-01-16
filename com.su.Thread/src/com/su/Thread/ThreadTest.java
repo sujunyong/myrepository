@@ -10,7 +10,7 @@ public class ThreadTest {
 		@Override        
 		public void run() {  
 			System.out.println("你好");
-			System.out.println("你好");
+			System.out.println("好");
 			try {
 				t1.join();
 				Thread.sleep(100);
